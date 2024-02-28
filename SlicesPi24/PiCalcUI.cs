@@ -23,7 +23,7 @@ namespace SlicesPi24
 
             // Run the main loop
             MainUILoop(calc, data);
-            //MainUILoopForAsync(data);
+            
             // Report result
             Console.WriteLine($"Final value for pi : {data.Pi}");
             Console.WriteLine($"Found after {data.Iterations} iterations");
